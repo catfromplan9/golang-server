@@ -1,0 +1,150 @@
+@font-face {
+	font-family:ibmvga8;
+	src: url(/oldschool-pc-fonts/webfonts/ibm_vga8.ttf) format('truetype');
+	font-weight:400;
+	font-style:normal
+}
+
+code {
+	font-family: ibmvga8, IBMVGA8, serif;
+	font-size: 16px;
+	padding: 1px;
+}
+
+.hljs {
+	padding: 5px;
+	overflow: scroll;
+}
+
+img.preview {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+img.retroframe {
+	margin: 10px 0px 10px 5px;
+	border-style: ridge;
+	border-color: #999;
+}
+
+img.cirno {
+	float:right;
+	margin: 10px 0px 10px 5px;
+	max-width: 250px;
+	height: auto;
+	border-style: ridge;
+	border-color: #999;
+}
+img.gif {
+	float:right;
+	max-width: 300px;
+	height: auto;
+	border-style: ridge;
+	border-color: #999;
+}
+
+article {
+	height: 80px;
+	width:500px;
+}
+
+article h4 {
+	margin: 0;
+}
+
+article p {
+	margin: 0;
+}
+
+.blacklink  {
+	color: #111;
+	font-weight: bold;
+}
+body {
+	background-color: #111;
+	color: #111;
+	font-size: 15px;
+	font-family: "Times New Roman", serif;
+
+	/*background-image: url("./paper.png");*/
+}
+a {
+	color: #000;
+}
+
+p {
+	padding: 0px;
+	margin: 15px 0px 15px 0px;
+}
+
+#wrapper {
+	width: 800px;
+	margin:  40px auto 0 auto;
+	padding: 0px 0px;
+	border-style: ridge;
+	border-color: #999;
+	background: #f1e3c9;
+
+}
+
+header {
+	padding: 0px 5px;
+	margin: 0 0 0 0;
+	background-color: #111;
+}
+
+main {
+	padding: 5px 15px;
+	margin: 0px 0 0px 0;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h1, h2, h3 {
+	margin: 10px 0px 5px 0px;
+	font-family:  "Amiri", serif;
+	line-height: 75%;
+}
+
+nav {
+	margin: 0px 0;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	margin-left: 0px;
+	float: left;
+}
+
+nav ul li a {
+	color: #f1e3c9;
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+
+	font-family:  "Amiri", serif;
+	font-weight: bold;
+}
+
+.path {
+	float:right;
+	margin-top: 6px;
+	font-size: 12px;
+
+}
+
+div.micros {
+	clear:both;
+	text-align: center;
+}
+
+

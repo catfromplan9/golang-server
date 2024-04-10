@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<title>{{template "Title" .}}</title>
+	<link rel="stylesheet" href="/style.css?v=6">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico?v=5">
+	<meta charset="utf-8">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+	@import url('/stackoverflow-dark.css');
+	</style>
+</head>
+<body>
+	<div id=wrapper>
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="/example/">Example</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		{{template "Content" .}}
+
+	</div>
+</body>
+</html>
